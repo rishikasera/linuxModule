@@ -1,0 +1,1 @@
+cmd_/home/winpqa/src/lkm_example/lkm_example.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/winpqa/src/lkm_example/lkm_example.ko /home/winpqa/src/lkm_example/lkm_example.o /home/winpqa/src/lkm_example/lkm_example.mod.o;  true

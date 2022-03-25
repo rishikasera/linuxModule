@@ -1,0 +1,1 @@
+cmd_/home/winpqa/src/lkm_example/Module.symvers := sed 's/\.ko$$/\.o/' /home/winpqa/src/lkm_example/modules.order | scripts/mod/modpost -m -a  -o /home/winpqa/src/lkm_example/Module.symvers -e -i Module.symvers   -T -

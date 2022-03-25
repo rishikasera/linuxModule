@@ -1,0 +1,1 @@
+cmd_/home/winpqa/src/mod_linkedlist/driver.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/winpqa/src/mod_linkedlist/driver.ko /home/winpqa/src/mod_linkedlist/driver.o /home/winpqa/src/mod_linkedlist/driver.mod.o;  true
